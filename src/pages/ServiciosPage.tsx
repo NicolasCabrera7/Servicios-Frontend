@@ -40,7 +40,7 @@ const ServiciosPage: React.FC = () => {
                   <h2 className="text-xl font-semibold mb-1">{servicio.servicio}</h2>
                   <p className="text-[var(--color-text)]">{servicio.nombre}</p>
                 </div>
-                <button className="text-gray-400 hover:text-red-500">
+                <button title='likeButton' className="text-gray-400 hover:text-red-500">
                   <Heart size={24} />
                 </button>
               </div>

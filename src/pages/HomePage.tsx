@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
                 placeholder="Busca cualquier servicio..."
                 className="w-full py-4 pl-6 pr-12 text-lg rounded-md border-none focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]"
               />
-              <button className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-[var(--color-primary)] text-white p-2 rounded-md hover:bg-[var(--color-primary-dark)]">
+              <button title='searchButton' className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-[var(--color-primary)] text-white p-2 rounded-md hover:bg-[var(--color-primary-dark)]">
                 <Search size={24} />
               </button>
             </div>
